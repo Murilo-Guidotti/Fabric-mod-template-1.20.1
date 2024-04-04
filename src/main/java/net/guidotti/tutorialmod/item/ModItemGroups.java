@@ -1,6 +1,7 @@
 package net.guidotti.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.guidotti.tutorialmod.Block.ModBlock;
 import net.guidotti.tutorialmod.TutorialMod;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,7 +17,7 @@ public class ModItemGroups {
             new Identifier(TutorialMod.MOD_ID, "ruby"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
             .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                     entries.add(ModItems.RUBY);
-                    entries.add(ModItems.RUSSIA);
+                    entries.add(ModBlock.RUBY_BLOCK);
 
                     }).build());
 
@@ -24,8 +25,9 @@ public class ModItemGroups {
             new Identifier(TutorialMod.MOD_ID, "russia"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.russia"))
                     .icon(() -> new ItemStack(ModItems.RUSSIA)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.RUSSIA);
-                        entries.add(Items.DIAMOND);
+                        entries.add(Items.DIAMOND_SWORD);
                         entries.add(Items.TNT);
+                        entries.add(ModBlock.STRANGE_BLOCK);
                     })).build());
 
     public static void registerItemGroups() {

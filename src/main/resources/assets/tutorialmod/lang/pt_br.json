@@ -1,0 +1,10 @@
+{
+  "item.tutorialmod.ruby": "Rubi",
+  "item.tutorialmod.russia": "Bandeira da Russia",
+
+  "block.tutorialmod.ruby_block": "Bloco de Rubi",
+  "block.tutorialmod.strange_block": "Bloco Estranho",
+
+  "itemgroup.ruby": "Grupo de tutorial Rubi",
+  "itemgroup.russia": "Exercito Russo"
+}

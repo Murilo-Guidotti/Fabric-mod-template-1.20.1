@@ -2,6 +2,9 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.russia": "Russia Flag",
 
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.strange_block": "Strange Block",
+
   "itemgroup.ruby": "Ruby Tutorial Group",
   "itemgroup.russia": "Russia Army"
 }
