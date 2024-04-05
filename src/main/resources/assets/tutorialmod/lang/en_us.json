@@ -1,9 +1,14 @@
 {
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.russia": "Russia Flag",
+  "item.tutorialmod.raw_ruby": "Raw Ruby",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
-  "block.tutorialmod.strange_block": "Strange Block",
+  "block.tutorialmod.raw_ruby_block": "Raw Ruby Block",
+  "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.tutorialmod.end_ruby_ore": "End Ruby Ore",
 
   "itemgroup.ruby": "Ruby Tutorial Group",
   "itemgroup.russia": "Russia Army"
